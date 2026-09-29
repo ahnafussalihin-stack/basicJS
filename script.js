@@ -1,10 +1,14 @@
-const siswa = {
+const siswa1 = {
     nama: "Bagas Dribble",
     kelas: "X SIJA",
     umur: 20,
-    alamat: "Muarabungo, Provinsi Jambi",
+    alamat: {
+        jalan: "Slamet Riyadi",
+        kota: "Solo"
+        },
     nomorHPku: 6289669381926
 };
+
 const siswa2 = {
     nama: "Luthfi",
     kelas: "X MIPA",
@@ -12,6 +16,10 @@ const siswa2 = {
     alamat: "Balikpapan, Kalimantan Timur",
     nomorHPku: 62895622157645
 };
+const siswa = [
+    { nama: "Andi", kelas: "X SIJA"},
+    { nama: "Budi", kelas: "X SIJA"},
+    { nama: "Citra", kelas: "X SIJA"}
+]
 
-console.log(siswa.nama);
-console.log(siswa.nomorHPku)
+console.log(siswa[0]);
