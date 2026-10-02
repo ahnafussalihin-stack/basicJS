@@ -17,9 +17,11 @@ const siswa2 = {
     nomorHPku: 62895622157645
 };
 const siswa = [
-    { nama: "Andi", kelas: "X SIJA"},
-    { nama: "Budi", kelas: "X SIJA"},
-    { nama: "Citra", kelas: "X SIJA"}
+    { nama: "Andi", kelas: "X SIJA", alamat: "jl braga, bandung", nomorHP: "6255555", umur: "15"},
+    { nama: "Budi", kelas: "X SIJA", alamat: "jl kebayoran baru, jakarta selatan", nomorHP: "6266666", umur: "16"},
+    { nama: "Citra", kelas: "X SIJA", alamat: "jl kebayoran lama, jakarta selatan", nomorHP: "627777", umur: "17"},
+    { nama: "Dani", kelas: "X SIJA", alamat: "jl panglima polim, jakarta selatan", nomorHP: "628888", umur: "18"}
 ]
 
-console.log(siswa[0]);
+console.log("Namanya", siswa[0].nama, "Umurnya", siswa[0].umur);
+console.log("Namanya", siswa[1].nama, "Umurnya", siswa[1].umur);
