@@ -41,3 +41,9 @@ hargaa [0] * jumlahh[0] +
 hargaa [1] * jumlahh[1] +
 hargaa [2] * jumlahh[2];
 //console.log(totall);
+
+let nilaiRataRata = [80, 75, 90, 85, 70];
+let totalRataRata = nilaiRataRata[0] + nilaiRataRata[1] +
+nilaiRataRata[2] + nilaiRataRata[3] + nilaiRataRata[4];
+let rataRata = totalRataRata / 5;
+//console.log(rataRata)
