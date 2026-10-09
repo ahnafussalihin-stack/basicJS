@@ -65,4 +65,14 @@ if (nilaii >= 90) {
     //console.log("Nilainya", nilaii, "Dengan grade C");
 }
 
+let punyaTiket = false;
+let punyaUndangan= false;
+if (punyaTiket && punyaUndangan) {
+    //console.log("Tamu VIP")
+} else if (punyaTiket || punyaUndangan) {
+    //console.log("Tamu Biasa")
+} else { //console.log("Tidak boleh Masuk"); 
+
+}
+ 
 
