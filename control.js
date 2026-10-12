@@ -75,4 +75,16 @@ if (punyaTiket && punyaUndangan) {
 
 }
  
+let angka = [10, 15, 20, 25];
+if (angka[3] % 2 ===0) {
+    //console.log("Genap");
+} else {
+    //console.log("Ganjil");
+}
 
+let nama = ["Andi", "Budi", "Citra"]
+if (nama[1] === "Andi") {
+    console.log("Nama Ditemukan");
+} else {
+    console.log("Tidak Ditemukan")
+}
