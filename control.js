@@ -84,7 +84,7 @@ if (angka[3] % 2 ===0) {
 
 let nama = ["Andi", "Budi", "Citra"]
 if (nama[1] === "Andi") {
-    console.log("Nama Ditemukan");
+    //console.log("Nama Ditemukan");
 } else {
-    console.log("Tidak Ditemukan")
+    //console.log("Tidak Ditemukan")
 }
