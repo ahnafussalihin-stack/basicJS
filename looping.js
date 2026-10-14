@@ -21,6 +21,14 @@ let total = 0;
 
 for (let i = 1; i <= 5; i++) {
     total = total + i;
-    console.log(`i = ${1} -> total = ${total}`)
+    //console.log(`i = ${1} -> total = ${total}`);
 }
+
+let totall = 0;
+
+for (let i = 10; i <= 20; i+=2) {
+    totall = totall + i;
+    console.log(`i = ${i} -> total = ${totall}`);
+}
+
 
