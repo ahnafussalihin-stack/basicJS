@@ -28,7 +28,15 @@ let totall = 0;
 
 for (let i = 10; i <= 20; i+=2) {
     totall = totall + i;
-    console.log(`i = ${i} -> total = ${totall}`);
+    //console.log(`i = ${i} -> total = ${totall}`);
 }
+
+
+let nama = ["Andi", "Citra", "Doni", "Reihan", "Fathan", "Arya", "Nizar", "Rizam", "Fatih", "Daus"];
+for (let i = 0; i < nama.length; i++) {
+    //console.log(`${i + 1}. ${nama[i]}`);
+}
+
+
 
 
